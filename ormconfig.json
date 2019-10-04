@@ -1,0 +1,15 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "toor",
+  "database": "justatest",
+  "logging": false,
+  "synchronize": false,
+  "entities": ["src/**/*.entity{.ts,.js}"],
+  "migrations": ["database/migrations/**/*{.ts,.js}"],
+  "cli": {
+    "migrationsDir": "database/migrations"
+  }
+}
